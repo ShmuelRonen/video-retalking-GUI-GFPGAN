@@ -1,3 +1,45 @@
+<h3>video-retalking-GUI-GFPGAN</h3>
+
+
+A GUI interface for Video-Retalking that allows improving the quality of the product with the addition of a GFPGAN step that increases the quality of the final product.
+
+![GUI ](https://github.com/ShmuelRonen/video-retalking-GUI-GFPGAN/assets/80190186/086b93de-8206-4aac-9090-e2a43f3a4ced)
+
+## Installation steps
+It is advisable to install in the Root of C:\
+```
+git clone https://github.com/vinthony/video-retalking.git
+cd video-retalking
+conda create -n video_retalking python=3.8
+conda activate video_retalking
+pip install ffmpeg
+
+# For your CUDA version please follow the instructions from https://pytorch.org/get-started/previous-versions/
+# This installation suggestion command only works on CUDA 11.1
+pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+
+pip install -r requirements.txt
+pip install ffmpeg-python
+pip install gradio
+
+```
+https://drive.google.com/file/d/1gFCEoFgDQ8KL3yGOtAldXhuODtAvrl6G/view?usp=drive_link
+
+1. Download the archive from Google Drive to your computer
+
+2. Open the compressed add ons folder with 7zip. 
+
+3. Inside it you will find 3 components: the GFPGAN-engine folder and two files app.py and app.bat.
+
+4. Copy the GFPGAN-engine folder to the root folder C:\ as it is.
+
+5. Copy the two files app.py and app.bat to the video-retalking folder.
+
+6. Double click on the app.bat file will launch the GUI through GRADIO.
+
+_____________
+
+
 <div align="center">
 
 <h2>VideoReTalking <br/> <span style="font-size:12px">Audio-based Lip Synchronization for Talking Head Video Editing In the Wild</span> </h2> 
