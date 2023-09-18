@@ -29,13 +29,15 @@ https://drive.google.com/file/d/1gFCEoFgDQ8KL3yGOtAldXhuODtAvrl6G/view?usp=drive
 
 2. Open the compressed add ons folder with 7zip. 
 
-3. Inside it you will find 3 components: the GFPGAN-engine folder and two files app.py and app.bat.
+3. Inside it you will find 4 components: the GFPGAN-engine folder the checkpoints folder and two files app.py and app.bat.
 
 4. Copy the GFPGAN-engine folder to the root folder C:\ as it is.
 
 5. Copy the two files app.py and app.bat to the video-retalking folder.
 
-6. Double click on the app.bat file will launch the GUI through GRADIO.
+6. copy the checkpoints folder also into the video-retalking folder.
+
+7. Double click on the app.bat file will launch the GUI through GRADIO.
 
 _____________
 
