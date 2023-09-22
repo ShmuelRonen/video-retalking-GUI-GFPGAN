@@ -21,6 +21,7 @@ pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pyt
 pip install -r requirements.txt
 pip install ffmpeg-python
 pip install gradio
+pip install gfpgan
 
 ```
 https://drive.google.com/file/d/1gFCEoFgDQ8KL3yGOtAldXhuODtAvrl6G/view?usp=drive_link
